@@ -1,5 +1,7 @@
-ame: main
-on: push
+name: main
+on: 
+  - push
+  - workflow_dispatch
 
 jobs:
   configure:
