@@ -11,7 +11,7 @@ jobs:
         uses: advanced-security/ghas-to-csv@v2
         env:
           GITHUB_PAT: ${{ secrets.PAT }}  # needed if not running against the current repository
-          SCOPE_NAME: "vkt1414/gh_actions_playground"  # repository name, needed only if not running against the current repository
+          #SCOPE_NAME: "vkt1414/gh_actions_playground"  # repository name, needed only if not running against the current repository
       - name: Upload CSV
         uses: actions/upload-artifact@v3
         with:
