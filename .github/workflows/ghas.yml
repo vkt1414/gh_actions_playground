@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: CSV export
-        uses: advanced-security/ghas-to-csv@v2
+        uses: vkt1414/ghas-to-csv@vamsi's_version
         env:
           GITHUB_PAT: ${{ secrets.PAT }}  # needed if not running against the current repository
           #SCOPE_NAME: "vkt1414/gh_actions_playground"  # repository name, needed only if not running against the current repository
